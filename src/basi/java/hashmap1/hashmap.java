@@ -7,13 +7,15 @@ public class hashmap {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		/// second commit
        HashMap<Integer,String> hmap=new HashMap<Integer,String>();
        hmap.put(1, "Stringmap");
        hmap.put(2, "Stringmap2");
        hmap.put(3, "Stringmap3");
-      // hmap.forEach(Map.Entry<n,k> e :hmap.entrySet()) -> System.out.println(n+"  "+k);
-       
-       
+       //hmap.forEach(HashMap<Integer, String>entry : hmap.entrySet()) -> System.out.println(n+"  "+k);    
+       //hmap.forEach(Map.Entry);
+      
        for(Map.Entry<Integer, String>entry : hmap.entrySet())
        {
     	   int key=entry.getKey();
