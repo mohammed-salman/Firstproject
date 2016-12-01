@@ -9,6 +9,10 @@ public class hashmap {
 		// TODO Auto-generated method stub
 		
 		/// second commit
+		
+		//third comment
+		
+		
        HashMap<Integer,String> hmap=new HashMap<Integer,String>();
        hmap.put(1, "Stringmap");
        hmap.put(2, "Stringmap2");
